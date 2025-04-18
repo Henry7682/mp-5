@@ -47,7 +47,7 @@ export default function Urls() {
             }
 
             setShort(`${window.location.origin}/${alias}`);
-        } catch (err) {
+        } catch {
             setError("An unknown error occurred");
         }
     }
